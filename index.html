@@ -58,7 +58,7 @@
                 <a href="http://huanwang.tech">Huan Wang</a><sup>1,&dagger;</sup>&#8192;
               </span>
               <span class="author-block">
-                <a href="https://canqin.tech/">Can Qin</a><sup>1&ast;</sup>&#8192;
+                <a href="https://canqin.tech/">Can Qin</a><sup>1</sup>&#8192;
               </span>
               <span class="author-block">
                 <a href="https://yueb17.github.io/">Yue Bai</a><sup>1</sup>&#8192;
@@ -121,11 +121,7 @@
           <a><img src="figs/wrn_40_2_wrn_16_2_cifar100.svg"  height="200" ></a>
         </div>
         <div class="content has-text-justified">
-          We present a proven proposition to precisely answer <i>"What makes a good data augmentation (DA) in knowledge distillation (KD)?"</i>: A good DA should reduce the covariance of the teacher-student cross-entropy.
-          We present a practical metric that only needs the teacher to measure the goodness of a DA in KD: the <b>stddev of teacher’s mean probability</b> (shorted as <b>T. stddev</b>).
-          <mark>Interestingly, T. stddev poses a <u>strong positive correlation</u> (note the p-values are far below <a href="https://www.wikiwand.com/en/Statistical_significance">5%</a>) with student’s test loss (S. test loss) on CIFAR100 and Tiny ImageNet (see the right figure above), despite knowing <u>nothing</u> about the student, implying the goodness of a DA in KD is probably student-invariant.</mark>
-          Based on the theory, we further propose an entropy-based data picking algorithm that can further boost prior SOTA DA scheme (CutMix) in KD, resulting in a new strong DA method, <b>CutMixPick</b>.
-          Finally, we show how the theory can be utilized in practice to harvest considerable performance gains simply by using a stronger DA with prolonged training epochs.
+          Network pruning, despite over 30 years of history, has been pretty confounding of late in terms of its benchmarks. As quoted from this survey paper: ""
         </div>
       </div>
     </div>
@@ -195,17 +191,15 @@
 
 
 
-
-
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{wang2022what,
-    author = {Huan Wang and Suhas Lohit and Mike Jones and Yun Fu},
-    title = {What Makes a "Good" Data Augmentation in Knowledge Distillation -- A Statistical Perspective},
-    booktitle = {NeurIPS},
-    year = {2022},
-}</code></pre>
+      <pre><code>@article{wang2022what,
+          author = {Huan Wang and Can Qin and Yue Bai and Yun Fu},
+          title = {Is that Pruning Experiment Really Fair? On the Central Role of Trainability in Neural Network Pruning},
+          journal = {arXiv preprint arXiv:2105.05916},
+          year = {2022},
+        }</code></pre>
     </div>
   </section>
 
