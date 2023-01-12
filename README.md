@@ -14,7 +14,7 @@ This repository is for our preprint work that deciphers the recent confusing ben
 
 ## Abstract
 <div align="center">
-  <img src="figs/plot_Fairness_overview_for_Arxiv_v2.png" width="650px">
+  <img src="figs/plot_Fairness_overview_for_Arxiv_v2.png" width="850px">
 </div>
 The state of neural network pruning has been noticed to be unclear and even confusing for a while, largely due to "a lack of standardized benchmarks and metrics" [3]. To standardize benchmarks, first, we need to answer: what kind of comparison setup is considered fair? This basic yet crucial question has barely been clarified in the community, unfortunately. Meanwhile, we observe several papers have used (severely) sub-optimal hyper-parameters in pruning experiments, while the reason behind them is also elusive. These sub-optimal hyper-parameters further exacerbate the distorted benchmarks, rendering the state of neural network pruning even more obscure.
 
