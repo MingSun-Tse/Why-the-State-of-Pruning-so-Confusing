@@ -7,14 +7,14 @@
 </div>
 
 This repository is for our preprint work that deciphers the recent confusing benchmark situation in neural network (filter) pruning:
-> **Why is the State of Neural Network Pruning *so Confusing*? On the Fairness, Comparison Setup, and Trainability in Network Pruning [[ArXiv]()]**\
+> **Why is the State of Neural Network Pruning *so Confusing*? On the Fairness, Comparison Setup, and Trainability in Network Pruning [[ArXiv](https://arxiv.org/abs/2207.12534)]**\
 > [Huan Wang](http://huanwang.tech/), [Can Qin](http://canqin.tech/), [Yue Bai](https://yueb17.github.io/), and [Yun Fu](http://www1.ece.neu.edu/~yunfu/) \
 > Northeastern University, Boston, MA, USA
 
 
 ## Abstract
 <div align="center">
-  <img src="figs/plot_Fairness_overview_for_Arxiv_v2.png" width="850px">
+  <img src="figs/plot_Fairness_overview_for_Arxiv_v2.png" width="750px">
 </div>
 The state of neural network pruning has been noticed to be unclear and even confusing for a while, largely due to "a lack of standardized benchmarks and metrics" [3]. To standardize benchmarks, first, we need to answer: what kind of comparison setup is considered fair? This basic yet crucial question has barely been clarified in the community, unfortunately. Meanwhile, we observe several papers have used (severely) sub-optimal hyper-parameters in pruning experiments, while the reason behind them is also elusive. These sub-optimal hyper-parameters further exacerbate the distorted benchmarks, rendering the state of neural network pruning even more obscure.
 
