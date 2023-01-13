@@ -31,12 +31,12 @@ TODO: Will update soon. Stay tuned!
 In this code we refer to the following implementations: [Regularization-Pruning](https://github.com/MingSun-Tse/Regularization-Pruning), [pytorch imagenet example](https://github.com/pytorch/examples/tree/master/imagenet), [rethinking-network-pruning](https://github.com/Eric-mingjie/rethinking-network-pruning), [EigenDamage-Pytorch](https://github.com/alecwangcq/EigenDamage-Pytorch), [pytorch_resnet_cifar10](https://github.com/akamaster/pytorch_resnet_cifar10). Great thanks to them!
 
 ## Citation
-If you find the code helpful in your resarch or work, please cite the following papers.
+Our code helps your research or work, please generously consider to cite our paper, thanks!
 ```
 @article{wang2023why,
     title={Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning},
     author={Wang, Huan and Qin, Can and Bai, Yue and Fu, Yun},
-    journal={Arxiv},
-    year={20213},
+    journal={arXiv preprint arXiv:2301.05219},
+    year={2023},
 }
 ```
