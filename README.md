@@ -7,7 +7,7 @@
 </div>
 
 This repository is for our preprint work that deciphers the recent confusing benchmark situation in neural network (filter) pruning:
-> **Why is the State of Neural Network Pruning *so Confusing*? On the Fairness, Comparison Setup, and Trainability in Network Pruning [[ArXiv](https://arxiv.org/abs/2207.12534)]**\
+> **Why is the State of Neural Network Pruning *so Confusing*? On the Fairness, Comparison Setup, and Trainability in Network Pruning [[ArXiv](https://arxiv.org/abs/2301.05219)]**\
 > [Huan Wang](http://huanwang.tech/), [Can Qin](http://canqin.tech/), [Yue Bai](https://yueb17.github.io/), and [Yun Fu](http://www1.ece.neu.edu/~yunfu/) \
 > Northeastern University, Boston, MA, USA
 
@@ -20,8 +20,7 @@ The state of neural network pruning has been noticed to be unclear and even conf
 
 Two mysteries in pruning represent such a confusing status: the performance-boosting effect of a larger finetuning learning rate, and the no-value argument of inheriting pretrained weights in filter pruning.
 
-In this work, we attempt to explain the confusing state of network pruning by demystifying the two mysteries. Specifically, (1) we first clarify the fairness principle in pruning experiments and summarize the widely-used comparison setups; (2) then we unveil the two pruning mysteries and point out the central role of network trainability, which has not been well recognized so far; (3) finally, we conclude the paper and give some concrete suggestions regarding how to calibrate the pruning benchmarks in the future. Code: https://github.com/mingsun-tse/why-state-of-pruning-so-confusing.
-
+In this work, we attempt to explain the confusing state of network pruning by demystifying the two mysteries. Specifically, (1) we first clarify the fairness principle in pruning experiments and summarize the widely-used comparison setups; (2) then we unveil the two pruning mysteries and point out the central role of network trainability, which has not been well recognized so far; (3) finally, we conclude the paper and give some concrete suggestions regarding how to calibrate the pruning benchmarks in the future.
 
 ## Reproducing our results 
 
