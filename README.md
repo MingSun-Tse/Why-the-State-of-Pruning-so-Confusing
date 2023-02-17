@@ -5,7 +5,7 @@
 </div>
 
 This repository is for our preprint work that deciphers the recent [confusing](figs/tab1_confusing_benchmark.png) benchmark situation in neural network (filter) pruning:
-> **[Why is the State of Neural Network Pruning *so Confusing*? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/abs/2301.05219)**\
+> **Why is the State of Neural Network Pruning *so Confusing*? On the Fairness, Comparison Setup, and Trainability in Network Pruning** [[Arxiv](https://arxiv.org/abs/2301.05219) | [Latest PDF](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-so-Confusing/blob/master/paper/2023.01-why-state-of-pruning-so-confusing-update0216.pdf)] \
 > [Huan Wang](http://huanwang.tech/), [Can Qin](http://canqin.tech/), [Yue Bai](https://yueb17.github.io/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/) \
 > Northeastern University, Boston, MA, USA
 
