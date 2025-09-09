@@ -31,6 +31,8 @@ In this work, we attempt to explain the confusing state of network pruning by de
 
 TODO: Will update soon. Stay tuned!
 
+*Huan (Sep. 2025): Some reached out to me regarding the code release of this paper. The paper historically was not accepted. I guess it says some "hard truth" that is not so easy to swallow. Because it is not accepted, I have not been so motivated to update the code (sorry...). But if you read the paper, you will know the implementation is very easy. The major point is about changing the learning rate schedule during finetuning. You can just resort to any standard implementation like [pytorch imageNet example](https://github.com/pytorch/examples/tree/main/imagenet) and tweak the LR schedule as you like. Then you should be able to reproduce our results. :)*
+
 
 ## Acknowledgments
 In this code we refer to the following implementations: [Regularization-Pruning](https://github.com/MingSun-Tse/Regularization-Pruning), [pytorch imagenet example](https://github.com/pytorch/examples/tree/master/imagenet), [rethinking-network-pruning](https://github.com/Eric-mingjie/rethinking-network-pruning), [EigenDamage-Pytorch](https://github.com/alecwangcq/EigenDamage-Pytorch), [pytorch_resnet_cifar10](https://github.com/akamaster/pytorch_resnet_cifar10). Great thanks to them!
